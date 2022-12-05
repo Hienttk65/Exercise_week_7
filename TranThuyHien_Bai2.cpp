@@ -47,11 +47,9 @@ int main() {
     }
     cout<<q->num<<" ";
     free(q);
-    
-
     end = clock(); 
     time_use = (double)(end - start) / CLOCKS_PER_SEC;
-	cout<<"Fasting time is: " << time_use;
+    cout<<"Fasting time is: " << time_use;
     return 0;
 }
 
@@ -59,6 +57,7 @@ int main() {
 //Phan b
 /*
 độ phức tạp là O(n)
+code chạy time như trên
 với n=1001, m=1 => time= 4.678
 
 */

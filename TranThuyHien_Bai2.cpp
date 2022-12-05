@@ -59,6 +59,6 @@ int main() {
 //Phan b
 /*
 độ phức tạp là O(n)
-với n=1001, m=1 => time=
+với n=1001, m=1 => time= 4.678
 
 */
